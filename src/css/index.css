@@ -1,13 +1,3 @@
 html {
 	font-family: sans-serif;
 }
-
-header {
-	display: flex;
-	justify-content: center;
-}
-
-footer {
-	display: flex;
-	justify-content: center;
-}
