@@ -1,9 +1,5 @@
 ---
-layout: base.njk
+layout: index.njk
 ---
 
-# Welcome,
-
-I am [Karl Guillotte](/about)
-
-I am a [senior web developper](/resume)
+# Welcome, I am [Karl Guillotte](/about). I am a [senior web developper](/resume).

@@ -8,8 +8,6 @@
         <title>Karl Guillotte</title>
     </head>
     <body>
-        {% include 'partials/header.html' %}
-        <main>{{ content | safe }}</main>
-        {% include 'partials/footer.html' %}
+        {{ content | safe }}
     </body>
 </html>

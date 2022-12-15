@@ -2,6 +2,7 @@
 @import 'https://unpkg.com/open-props/normalize.min.css';
 
 
+
 html {
 	background-image: var(--gradient-18);
 }
@@ -19,4 +20,6 @@ header nav {
 }
 
 footer {
+    display: flex;
+	gap: var(--size-5);
 }
