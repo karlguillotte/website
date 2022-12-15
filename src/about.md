@@ -1,7 +1,7 @@
 ---
-    layout: base.njk
+layout: base.njk
 ---
 
 # About me
 
-Currently located in Revelstoke, British-Columbia. 
+Currently located in Montréal, Québec, Canada. I am open to work and activally looking for work.

@@ -1,8 +1,8 @@
 ---
-    layout: base.njk
+layout: base.njk
 ---
 
-# Welcome, 
+# Welcome,
 
 I am [Karl Guillotte](/about)
 

@@ -1,16 +1,17 @@
 {
-	"name": "website",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "eleventy --serve",
-		"build": "eleventy"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"@11ty/eleventy": "^1.0.0"
-	}
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Karl's website",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "open-props": "^1.5.1"
+  }
 }

@@ -1,9 +1,9 @@
 module.exports = function (config) {
-	config.setTemplateFormats(['md', 'css'])
+  config.setTemplateFormats(["md", "css"]);
 
-	return {
-		dir: {
-			input: 'src',
-		},
-	}
-}
+  return {
+    dir: {
+      input: "src",
+    },
+  };
+};

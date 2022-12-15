@@ -1,34 +1,22 @@
+@import '/node_modules/open-props/open-props.min.css';
+@import '/node_modules/open-props/normalize.min.css';
+
+
 html {
-	font-family: sans-serif;
+	background-image: var(--gradient-18);
 }
 
 body {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	justify-content: space-between;
+	padding: var(--size-5);
 }
 
-main {
-	flex: 1;
-	max-width: 60ch;
-	width: 100%;
-	margin: auto;
+header nav {
+	display: flex;
+	justify-content: space-between;
 }
 
 footer {
-	display: flex;
-	gap: 1rem;
-	background-color: lightgrey;
-	padding: 1rem;
-}
-
-h1 {
-	line-height: 10rem;
-}
-
-@media (prefers-color-scheme: dark) {
-	*:not(a) {
-		background-color: black;
-		color: white;
-	}
 }
