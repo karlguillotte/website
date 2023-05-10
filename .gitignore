@@ -15,5 +15,4 @@ node_modules/
 # dotenv environment variables file
 .env
 
-# 11ty
-_site
+dist
