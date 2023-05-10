@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: ../layouts/Layout.astro
 ---
 
 # My resume

@@ -1,16 +1,21 @@
 {
-  "name": "website",
-  "version": "1.0.0",
-  "description": "Karl's website",
-  "main": "index.js",
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
-  }
+    "name": "website",
+    "type": "module",
+    "author": "Karl Guillotte",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "astro": "^2.4.1",
+        "autoprefixer": "^10.4.14",
+        "open-props": "^1.5.8",
+        "postcss-import": "^15.1.0",
+        "postcss-jit-props": "^1.0.13",
+        "postcss-preset-env": "^8.3.2"
+    }
 }

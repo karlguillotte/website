@@ -1,0 +1,47 @@
+---
+import { author } from '../../package.json' assert { type: 'json' }
+import Header from './Header.astro'
+import Footer from './Footer.astro'
+
+import 'open-props/postcss/normalize/light'
+
+export interface Props {
+    title?: string
+}
+
+const { title = author } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+    </head>
+    <body>
+        <slot name="header">
+            <Header />
+        </slot>
+        <main>
+            <slot />
+        </main>
+        <slot name="footer">
+            <Footer />
+        </slot>
+    </body>
+</html>
+<style>
+    html {
+        background-image: var(--gradient-18);
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: var(--size-5);
+    }
+</style>
