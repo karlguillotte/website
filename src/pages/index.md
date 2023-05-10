@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/HomeLayout.astro
+layout: layouts:HomeLayout.astro
 ---
 
 # Welcome, I am [Karl](/about). I am a [senior web developper](/resume).
