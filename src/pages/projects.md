@@ -6,8 +6,8 @@ layout: ../layouts/Layout.astro
 
 ## Hubert
 
-About to buy a bus, convert it and then hit the road with it. More details to come.
+I bought a bus last summer. My plan is to convert it and then hit the road. More details to come.
 
 ## Gardening
 
-Got interested in gardening a few years ago. Every season,
+Got interested in gardening a few years ago. Every season, I grow my own veggies.
