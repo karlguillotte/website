@@ -1,13 +1,27 @@
-<header>
-    <nav>
+<header id="header" class="layouts:box position:sticky top:-1" style="--color-light:initial">
+    <nav class="layouts:cluster justify-content:space-between">
         <a href="/">Home</a>
         Karl Guillotte
     </nav>
 </header>
 
-<style is:global>
-    body > header nav {
-        display: flex;
-        justify-content: space-between;
+<style>
+    header {
+        backdrop-filter: blur(15px);
     }
 </style>
+
+<script>
+    /*     const element = document.querySelector('#header')
+    const observer = new IntersectionObserver(
+        ([element]) => {
+            const state = element.intersectionRatio < 1 ? 'stuck' : 'unstuck'
+
+            element.target.dataset.state = state
+        },
+        { threshold: [1] }
+    )
+
+    observer.observe(element)
+ */
+</script>

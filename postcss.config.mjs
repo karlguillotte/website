@@ -11,6 +11,9 @@ export default {
         postcssImport(),
         postcssPresetEnv({
             stage: 1,
+            features: {
+                'cascade-layers': false,
+            },
         }),
         postcssAutoprefixer(),
         postcssJitProps(OpenProps),

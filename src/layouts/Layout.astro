@@ -3,6 +3,8 @@ import { author } from '../../package.json' assert { type: 'json' }
 import Header from 'layouts:Header.astro'
 import Footer from 'layouts:Footer.astro'
 
+import 'beluga'
+
 import 'open-props/postcss/normalize/light'
 
 interface Props {
@@ -23,11 +25,11 @@ const { frontmatter = {}, title = frontmatter.title ? frontmatter.title + ' :: '
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
     </head>
-    <body>
+    <body class="layouts:cover">
         <slot name="header">
             <Header />
         </slot>
-        <main>
+        <main class="layouts:cover--main">
             <slot />
         </main>
         <slot name="footer">
@@ -36,14 +38,7 @@ const { frontmatter = {}, title = frontmatter.title ? frontmatter.title + ' :: '
     </body>
 </html>
 <style is:global>
-    html {
-        background-image: var(--gradient-18);
-    }
-
     body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: var(--size-5);
+        background-image: var(--gradient-18);
     }
 </style>
